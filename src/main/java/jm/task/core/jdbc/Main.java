@@ -11,6 +11,7 @@ public class Main {
 
         userService.dropUsersTable();
         userService.dropUsersTable();
+
         userService.createUsersTable();
         userService.createUsersTable();
 
@@ -20,10 +21,10 @@ public class Main {
         userService.saveUser("Name4", "LastName4", (byte) 38);
 
         userService.removeUserById(2);
+
         userService.getAllUsers();
+
         userService.cleanUsersTable();
-
-
     }
 }
 
